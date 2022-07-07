@@ -1,1 +1,0 @@
-SELECT movies.title, genres.genre FROM movies LEFT JOIN genres ON movies.m_id=genres.movies_id;
