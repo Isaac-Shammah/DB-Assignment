@@ -1,1 +1,2 @@
+This query returns a list of movies and their genres
 SELECT movies.title, genres.genre FROM movies LEFT JOIN genres ON movies.m_id=genres.movies_id;
